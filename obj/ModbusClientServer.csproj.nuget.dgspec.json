@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marvin\\source\\repos\\ModbusClientServer\\ModbusClientServer.csproj": {}
+    "C:\\Users\\15mim\\Source\\Repos\\Sassas98\\ModbusClientServer\\ModbusClientServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marvin\\source\\repos\\ModbusClientServer\\ModbusClientServer.csproj": {
+    "C:\\Users\\15mim\\Source\\Repos\\Sassas98\\ModbusClientServer\\ModbusClientServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marvin\\source\\repos\\ModbusClientServer\\ModbusClientServer.csproj",
+        "projectUniqueName": "C:\\Users\\15mim\\Source\\Repos\\Sassas98\\ModbusClientServer\\ModbusClientServer.csproj",
         "projectName": "ModbusClientServer",
-        "projectPath": "C:\\Users\\Marvin\\source\\repos\\ModbusClientServer\\ModbusClientServer.csproj",
-        "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marvin\\source\\repos\\ModbusClientServer\\obj\\",
+        "projectPath": "C:\\Users\\15mim\\Source\\Repos\\Sassas98\\ModbusClientServer\\ModbusClientServer.csproj",
+        "packagesPath": "C:\\Users\\15mim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15mim\\Source\\Repos\\Sassas98\\ModbusClientServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\15mim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

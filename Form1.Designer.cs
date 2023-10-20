@@ -40,25 +40,27 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(31, 71);
+            label1.Location = new Point(27, 53);
             label1.Name = "label1";
-            label1.Size = new Size(66, 20);
+            label1.Size = new Size(52, 15);
             label1.TabIndex = 0;
             label1.Text = "IP Server";
             // 
             // textIP
             // 
-            textIP.Location = new Point(103, 71);
+            textIP.Location = new Point(90, 53);
+            textIP.Margin = new Padding(3, 2, 3, 2);
             textIP.Name = "textIP";
-            textIP.Size = new Size(125, 27);
+            textIP.Size = new Size(110, 23);
             textIP.TabIndex = 2;
             textIP.Text = "127.0.0.1";
             // 
             // btnConnect
             // 
-            btnConnect.Location = new Point(103, 117);
+            btnConnect.Location = new Point(90, 88);
+            btnConnect.Margin = new Padding(3, 2, 3, 2);
             btnConnect.Name = "btnConnect";
-            btnConnect.Size = new Size(125, 29);
+            btnConnect.Size = new Size(109, 22);
             btnConnect.TabIndex = 4;
             btnConnect.Text = "Connect";
             btnConnect.UseVisualStyleBackColor = true;
@@ -67,26 +69,27 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(103, 166);
+            label3.Location = new Point(90, 124);
             label3.Name = "label3";
-            label3.Size = new Size(51, 20);
+            label3.Size = new Size(40, 15);
             label3.TabIndex = 5;
             label3.Text = "Stato: ";
             // 
             // StatoLabel
             // 
             StatoLabel.AutoSize = true;
-            StatoLabel.Location = new Point(150, 166);
+            StatoLabel.Location = new Point(131, 124);
             StatoLabel.Name = "StatoLabel";
-            StatoLabel.Size = new Size(15, 20);
+            StatoLabel.Size = new Size(12, 15);
             StatoLabel.TabIndex = 6;
             StatoLabel.Text = "-";
             // 
             // btnScrivi
             // 
-            btnScrivi.Location = new Point(103, 332);
+            btnScrivi.Location = new Point(90, 249);
+            btnScrivi.Margin = new Padding(3, 2, 3, 2);
             btnScrivi.Name = "btnScrivi";
-            btnScrivi.Size = new Size(125, 29);
+            btnScrivi.Size = new Size(109, 22);
             btnScrivi.TabIndex = 11;
             btnScrivi.Text = "Write";
             btnScrivi.UseVisualStyleBackColor = true;
@@ -94,43 +97,46 @@
             // 
             // textValue
             // 
-            textValue.Location = new Point(103, 281);
+            textValue.Location = new Point(90, 211);
+            textValue.Margin = new Padding(3, 2, 3, 2);
             textValue.Name = "textValue";
-            textValue.Size = new Size(125, 27);
+            textValue.Size = new Size(110, 23);
             textValue.TabIndex = 10;
             textValue.Text = "0";
             // 
             // textAddress
             // 
-            textAddress.Location = new Point(103, 243);
+            textAddress.Location = new Point(90, 182);
+            textAddress.Margin = new Padding(3, 2, 3, 2);
             textAddress.Name = "textAddress";
-            textAddress.Size = new Size(125, 27);
+            textAddress.Size = new Size(110, 23);
             textAddress.TabIndex = 9;
             textAddress.Text = "0";
             // 
             // labelValue
             // 
             labelValue.AutoSize = true;
-            labelValue.Location = new Point(48, 281);
+            labelValue.Location = new Point(42, 211);
             labelValue.Name = "labelValue";
-            labelValue.Size = new Size(45, 20);
+            labelValue.Size = new Size(35, 15);
             labelValue.TabIndex = 8;
             labelValue.Text = "Value";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(31, 243);
+            label7.Location = new Point(27, 182);
             label7.Name = "label7";
-            label7.Size = new Size(62, 20);
+            label7.Size = new Size(49, 15);
             label7.TabIndex = 7;
             label7.Text = "Address";
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(461, 373);
+            btnUpdate.Location = new Point(403, 280);
+            btnUpdate.Margin = new Padding(3, 2, 3, 2);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(112, 29);
+            btnUpdate.Size = new Size(98, 22);
             btnUpdate.TabIndex = 13;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
@@ -139,19 +145,20 @@
             // output
             // 
             output.BackColor = Color.White;
-            output.Location = new Point(353, 71);
+            output.Location = new Point(309, 53);
+            output.Margin = new Padding(3, 2, 3, 2);
             output.Multiline = true;
             output.Name = "output";
             output.ReadOnly = true;
-            output.Size = new Size(334, 271);
+            output.Size = new Size(293, 204);
             output.TabIndex = 14;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.InactiveBorder;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(output);
             Controls.Add(btnUpdate);
             Controls.Add(btnScrivi);
@@ -164,6 +171,7 @@
             Controls.Add(btnConnect);
             Controls.Add(textIP);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

@@ -1,0 +1,15 @@
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\ModbusClientServer.exe
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\ModbusClientServer.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\ModbusClientServer.deps.json
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\ModbusClientServer.runtimeconfig.json
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\ModbusClientServer.pdb
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\FluentModbus.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\System.IO.Ports.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\15mim\Source\Repos\Sassas98\ModbusClientServer\bin\Release\net6.0-windows\publish\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll

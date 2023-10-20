@@ -1,6 +1,5 @@
 using FluentModbus;
 using System.Net;
-using System.Security.Cryptography.Xml;
 
 namespace ModbusClientServer {
     public partial class Form1 : Form {
@@ -27,6 +26,7 @@ namespace ModbusClientServer {
             ctd = false;
             server = new ModbusTcpServer();
             server.Start();
+            UpdateRegister();
         }
 
         private void Scrivi(object sender, EventArgs e) {
@@ -59,10 +59,13 @@ namespace ModbusClientServer {
         }
 
         private void btnUpdate_Click(object sender, EventArgs e) {
+            UpdateRegister();
+        }
+
+        private void UpdateRegister() {
             var a = server.GetHoldingRegisters().ToArray();
             var b = Enumerable.Range(0, a.Length < 50 ? a.Length : 50).ToArray();
             output.Lines = Enumerable.Range(0, b.Length).Select(n => "Position " + b[n] + " ->   " + a[n]).ToArray();
         }
-
     }
 }
